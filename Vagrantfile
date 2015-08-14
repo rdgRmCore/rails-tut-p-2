@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "relativkreativ/centos-6-minimal"
-  config.vm.provision :shell, path: "https://raw.github.com/railsgirls/installation-scripts/master/rails-install-fedora.sh"
+  config.vm.provision :shell, path: "https://raw.githubusercontent.com/rdgRmCore/installation-scripts/master/rails-install-fedora.sh"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
